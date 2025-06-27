@@ -77,3 +77,11 @@ console.log(mystr)
 //concatenation of strings
 var mystr = "First string" + "Second string.";
 console.log(mystr)
+
+var mystr = " This is the first senetence.";
+mystr += "This is the second sentences.";
+console.log(mystr)
+
+var myname = "Boea";
+var mystr = "My name is" +myname+ "and im well";
+console.log(mystr)
