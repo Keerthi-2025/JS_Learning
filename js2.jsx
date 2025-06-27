@@ -62,3 +62,18 @@ a +=3;
 
 b = b - 2;
 b-=2;
+
+
+//String
+var firstname = "mr";
+var lastname = "daine";
+console.log(firstname);
+console.log(lastname)
+
+//Literal Quotes
+var mystr = "I am \"doubled string\" inside \"double quotes\"";
+console.log(mystr)
+
+//concatenation of strings
+var mystr = "First string" + "Second string.";
+console.log(mystr)
