@@ -85,3 +85,19 @@ console.log(mystr)
 var myname = "Boea";
 var mystr = "My name is" +myname+ "and im well";
 console.log(mystr)
+
+//Length of the string
+var names = "adoe";
+var namelength = names.length;
+console.log(namelength)
+
+var mystr = "Jello world";
+mystr = "Hello World";
+
+//Store multiples values in array
+var ourArray = ["Jon",56];
+console.log(ourArray)
+
+//Nested arrays
+var ourArray = [["Jon",22],["sbsi",22]];
+console.log(ourArray)
