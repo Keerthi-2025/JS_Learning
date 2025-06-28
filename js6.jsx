@@ -18,3 +18,24 @@ var result1 = dog["tails"];
 var demo = "name";
 var demo1 = dog[demo];
 
+//Updating the Objects
+dog.name = "dog1";
+
+//Adding new propeties to Objects
+dog.bark = "bow-bow";
+dog["bark"] = "bow-bow";
+
+//Deleting propeties fron Objects
+delete dog.bark;
+
+//Manipluating complex Objects
+var music = [{
+    "song":"abcd",
+    "title":"dance",
+    "formats":[
+        "OT",
+        "SONG"
+    ],
+    "movie":"xyz"
+}];
+
