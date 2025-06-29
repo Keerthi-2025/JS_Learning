@@ -89,3 +89,13 @@ var arr = Math.floor(Math.random()*20)
 function fun(){
     return Math.random();
 }console.log(fun());
+
+//parseInt Function
+function par(str){
+    return parseInt(str)
+}
+console.log("99");
+
+function fun(str){
+    return parseInt(str,2)
+}console.log("10011");
