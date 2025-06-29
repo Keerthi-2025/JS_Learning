@@ -105,3 +105,9 @@ function tern(a,b){
     return a === b ?true : false;
 }tern(2,4);
 console.log(tern());
+
+//Multiple Ternary operator
+
+function mul(num){
+    return num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero";
+}console.log(mul(10));
