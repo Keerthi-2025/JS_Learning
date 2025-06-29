@@ -99,3 +99,9 @@ console.log("99");
 function fun(str){
     return parseInt(str,2)
 }console.log("10011");
+
+//Ternary operator
+function tern(a,b){
+    return a === b ?true : false;
+}tern(2,4);
+console.log(tern());
