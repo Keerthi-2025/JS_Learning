@@ -114,3 +114,17 @@ function mul(num){
 
 //arrow functions
 const arr = ()=>  new Date();
+
+const arra1 = ()=> new Month();
+
+
+//Spread Arrays
+const arr1 = ["a","b","c","d"];
+let arr2;
+function arraydemo(){
+    arr2 = arr1;
+    arr1[0] ="cat";
+}
+console.log(arraydemo(arr2));
+
+
