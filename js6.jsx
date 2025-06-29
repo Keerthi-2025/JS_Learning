@@ -78,3 +78,8 @@ var arr =[];
 for(i=10;i>0;i-=2){
     arr.push(i);
 }console.log(arr);
+
+//Generation random decimal numbers
+function fun(){
+    return Math.random();
+}console.log(fun());
