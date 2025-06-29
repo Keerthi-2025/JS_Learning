@@ -63,7 +63,18 @@ for(i=0;i<10;i+=2){
 }console.log(arr);
 
 //For loop for Odd numbers
-var arr =[]
+var arr =[];
 for(i=1;i<10;i+=2){
+    arr.push(i);
+}console.log(arr);
+
+//Count Backwards with For Loop
+var arr =[];
+for(i=10;i>0;i-=1){
+    arr.push(i);
+}console.log(arr);
+
+var arr =[];
+for(i=10;i>0;i-=2){
     arr.push(i);
 }console.log(arr);
