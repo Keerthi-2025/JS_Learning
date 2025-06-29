@@ -48,3 +48,10 @@ while(i<5){
 
 }
 console.log(i)
+
+//for loop
+var arr =[];
+for(var i = 0;i<10;i++){
+    arr.push(i);
+}
+console.log(arr)
