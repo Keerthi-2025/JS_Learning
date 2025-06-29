@@ -79,7 +79,13 @@ for(i=10;i>0;i-=2){
     arr.push(i);
 }console.log(arr);
 
-//Generation random decimal numbers
+//Generation  of random decimal numbers
+function fun(){
+    return Math.random();
+}console.log(fun());
+
+//Generation of random whole numbers
+var arr = Math.floor(Math.random()*20)
 function fun(){
     return Math.random();
 }console.log(fun());
