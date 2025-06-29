@@ -55,3 +55,9 @@ for(var i = 0;i<10;i++){
     arr.push(i);
 }
 console.log(arr)
+
+//For loop for Odd numbers
+var arr =[];
+for(i=0;i<10;i+=2){
+    arr.push(i);
+}console.log(arr);
