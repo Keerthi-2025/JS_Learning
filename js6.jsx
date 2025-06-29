@@ -111,3 +111,6 @@ console.log(tern());
 function mul(num){
     return num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero";
 }console.log(mul(10));
+
+//arrow functions
+const arr = ()=>  new Date();
