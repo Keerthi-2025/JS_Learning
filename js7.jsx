@@ -81,3 +81,28 @@ myBook.writer = "Aldous Huxley";
 console.log(myBook.writer); // Output: Aldous Huxley
 
 
+function makeclass(){
+    
+    class Thermostat{
+
+        constructor(temp){
+            this._temp = 5/9 * (temp-32)   // private varibale
+        }
+
+        get temperature(){
+            return this._temp;
+        }
+        set temperature(updatetemp){
+            this._temp = updatetemp;
+        }
+    }
+
+    return Thermostat;
+}
+
+const  Thermostat = makeclass();
+const thermos = new Thermostat(100);
+let temp = thermos.temperature;
+thermos.temperature = 22;
+temp = thermos.temperature;
+console.log(temp);
