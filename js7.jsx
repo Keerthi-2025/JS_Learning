@@ -41,6 +41,43 @@ function makeclass(){
     }
     return vegetable;
 }
-const vegetable  = makeclass();
-const carrot = new vegetable('carrot');
+//const vegetable  = makeclass();
+//const carrot = new vegetable('carrot');
 console.log(carrot.name);
+
+//using getter and setters to control access to an object
+class Book{
+    constructor(author){
+        this._author = author;
+    }
+
+        get writer(){
+            return this._author;
+        }
+        set writer(updateauthor){
+            this._author = updateauthor;
+        }
+}
+
+
+class Book{
+    constructor(author){
+        this._author = author;
+    }
+
+        get writer(){
+            return this._author;
+        }
+        set writer(updateauthor){
+            this._author = updateauthor;
+        }
+}
+
+const myBook = new Book("George Orwell");
+
+console.log(myBook.writer); // Output: George Orwell
+
+myBook.writer = "Aldous Huxley";
+console.log(myBook.writer); // Output: Aldous Huxley
+
+
