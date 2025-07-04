@@ -106,3 +106,5 @@ let temp = thermos.temperature;
 thermos.temperature = 22;
 temp = thermos.temperature;
 console.log(temp);
+
+
